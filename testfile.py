@@ -5,7 +5,6 @@ print(__name__)
 def main():
     print('Hi...This is main function')
 
-# prints the current file name
 print(__name__)
 
 if __name__ == '__main__':
