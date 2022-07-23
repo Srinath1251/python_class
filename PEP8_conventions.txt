@@ -1,0 +1,143 @@
+PEP8 conventions to follow while coding in python:
+--------------------------------------------------
+1) Function names must use lowercase letters and words are seperated by underscores
+
+	Example:
+	--------
+	def check_number(num):
+		if num % 2 == 0:
+			print('EVEN')
+		else:
+			print('ODD')
+
+
+2) Leave 2 lines empty before and after function.
+   (If the function is declared in the first line of file, then no need for leaving top 2 lines)
+
+3) Leave space before and after an operator
+
+4) Leave space after comma in all areas (list, tuple, dictionary, set etc)
+
+5) Leave an empty line after the last line of code in a file.
+
+6) Don't shadow the variable names frequently
+
+	 Example:
+	 --------
+	 Using same variable name(which are defined global) as parameters in functions frequently.
+	 Its a bad practice.
+
+	 x = 5	# this is a global variable
+
+
+	 def show_num(x):
+	 	print(x)
+
+
+	 x = 10
+	 show_num(x)
+
+	 Use different parameters instead:
+	 --------------------------------
+	 x = 5
+
+
+	 def show_num(num):
+	 	print(num)
+
+
+	 x = 10
+	 show_num(x)
+
+7) Class name must follow "UpperCamelCase" pattern
+	Example:
+
+	class AnimalKingdom:
+
+	class Car:
+
+
+8) Method names in a class must follow lowercase and words are seperated by underscore
+
+   class AnimalKingdom:
+
+   		def makes_loud_sound(self):
+   			print('....')
+
+
+9) Don't use 'pass' in  a function. For testing purpose or for any other emergency like seeing the results instantly - use 'pass'.
+   Otherwise don't use 'pass'.
+
+10) Never use file names as pre-defined module names. Because it overrides.
+
+    Example:
+    --------
+     Never name a file as 'random.py'.
+     Because "random" is pre defined module in python.
+
+
+11) Always follow proper indentation.
+
+	 Examples:
+	 ---------
+	 1) Always allow one space to the left and right of an operator
+
+	 	a+b  		(bad practice)
+
+	 	a + b 	(good practice)
+
+	 2) In any sequence of elements that are seperated by commas, use a blank space immediately after every comma.
+
+	 	num_list = [1,2,3,4,5]			(Bad practice)
+
+	 	num_list = [1, 2, 3, 4, 5]		(Good practice)
+
+	 3) While using dictionaries,
+
+	 	student_info = {'name' : 'Srinath',	'city' : 'hyderabad', 'age' : 30}		(Bad practice)
+
+		student_info = {'name': 'Srinath', 'city': 'hyderabad', 'age': 30}			(Good practice)
+
+	 4) In Function parameters, don't use space before or after operators whenever they are required.
+	 	 But all parameters are seperated by comma and use a space after that.
+		 No need to add space before and after equals to (=) in parameters
+
+	 	(Bad practice)
+
+	 	def calculate_sum(a = 10,b = 20,name = 'srinath'):
+	 		print('Sum of numbers is : ')
+
+
+	 	(Good practice)
+
+	 	def calculate_sum(a=10, b=20, name='srinath'):
+	 		print('Sum of numbers is : ')
+
+
+12) Variables cannot be named same as keywords or in-built functions in python
+
+		(Bad practice)
+
+		id = 10
+		int = 20
+		str = 'srinath'
+		list = [1, 2]
+		sum = 100
+
+
+		(Good practice) -> Variables should be descriptive for readability.
+
+		id_ = 10
+		num = 20
+		string = 'srinath'
+		num_list = [1, 2]
+		sum_of_numbers = 100
+
+
+13) Inline comment must maintain atleast two spaces after the statement.
+
+		(Bad practice)
+		x = 10 + 20# this returns sum of numbers
+
+		(Good practice)
+		x = 10 + 20		# this returns sum of numbers

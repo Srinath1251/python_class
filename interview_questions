@@ -1,0 +1,81 @@
+1) What is Python?
+  - High level object oriented interpreted language.
+  - powerful programming language
+  - runs on different platforms like linux, unix, macintosh etc
+  - objects, modules, exceptions, memory management
+
+2) Advantages of Python?
+  - Open source
+  - Portable
+  - its extensible
+  - object oriented
+  - built in data structure
+  - simple and easy
+
+3) What is PEP8?
+  - its a coding convention about how to write code more readable
+
+4) What are Python literals?
+  - they are data saved in variables or constants
+  - string literals, numeric literals, boolean literals, special literals, literal collection
+
+5) What is a function?
+  - its a block of code that is written once and used multiple time as and when required by a program.
+  - built-in functions
+  - user defined functions
+
+6) What is web scrapping?
+  - It is a method of extracting large amount of information available on websites into our local machines
+    or onto database tables
+  - pyquery, urllib2, scrappy, beautiful soap etc
+
+7) File related libraries?
+  - os, os.path (provides functions for accessing file system)
+  - shutil (used to copy and delete files)
+
+8) File processing modes in Python?
+  - read only
+  - write only
+  - read and write
+
+9) What is a module?
+  - A python module is a .py file containing executable code
+
+10) What is pass?
+  - Pass means no operation statement
+  - when a function has to be left blank , it is used
+
+11) What is module and package?
+  - Module : it is a python program file which imports other modules like objects and attributes
+  - Package: it is a folder containing python modules.
+
+12) Is indentation required in Python?
+  - Necessary. Otherwise it will throw errors
+
+13) What is Pickling and Unpickling in python?
+  In Python, we have Pickle module.
+
+  - Pickling: process of converting python object to string representation and dumps in to file using dump function.
+    pickle.dump()
+
+  - Unpickling: reverse of the above process is unpickling
+    pickle.load()
+
+14) What are the built in types available in Python?
+  - Mutable: list, dictionaty, set
+  - Immutable: tuple, strings, numbers
+
+15) How can we consider variable and datatype in Python?
+  In Python,
+  - variable is an object
+  - datatype is a class
+
+16) What is the difference between list and tuple?
+  - list is mutable and tuple is immutable
+  - list has variable length and tuple has fixed length
+  - iteration process in list takes more time than tuple
+  - list takes more memory space than tuple
+  - tuple can be hashable as in the case of making keys for dictionaries
+
+17) What are Python Decorators?
+  - Decorator is a specific change made to a python syntax for the easy installation 
